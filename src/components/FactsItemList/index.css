@@ -1,0 +1,19 @@
+.faq-item {
+  display: flex;
+  flex-direction: column;
+}
+.fact-question {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007bff;
+}
+@media screen and (max-width: 768px) {
+  .fact-question {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

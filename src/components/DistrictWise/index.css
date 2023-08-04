@@ -1,0 +1,43 @@
+.district-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  width: 240px;
+  padding: 0px 20px;
+}
+@media screen and (max-width: 768px) {
+  .district-list-item {
+    width: 200px;
+  }
+}
+.district-number {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .district-number {
+    font-size: 14px;
+    line-height: 12px;
+  }
+}
+.district-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #94a3b8;
+}
+@media screen and (max-width: 768px) {
+  .district-name {
+    font-size: 14px;
+  }
+}

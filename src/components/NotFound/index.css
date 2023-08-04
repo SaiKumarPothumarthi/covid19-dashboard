@@ -1,0 +1,77 @@
+.NotFoundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #161625;
+}
+.not-found-img {
+  width: 448px;
+  height: 300px;
+}
+@media screen and (max-width: 768px) {
+  .not-found-img {
+    width: 242px;
+    height: 162px;
+  }
+}
+.not-found-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cbd5e1;
+}
+@media screen and (max-width: 768px) {
+  .not-found-heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.not-found-para {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+}
+@media screen and (max-width: 768px) {
+  .not-found-para {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+.nav-link {
+  text-decoration: none;
+}
+.Not-found-home-button {
+  width: 88px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  align-self: center;
+}
+@media screen and (max-width: 768px) {
+  .Not-found-home-button {
+    width: 66px;
+    height: 32px;
+    padding: 8px 16px 8px 16px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 16px;
+    align-self: center;
+  }
+}

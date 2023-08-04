@@ -1,0 +1,293 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #161625;
+}
+.vaccination-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #161625;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media screen and (max-width: 768px) {
+  .vaccination-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.vaccination-heading-container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 25px;
+  color: #cbd5e1;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 20px;
+  }
+}
+.vaccination-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+}
+@media screen and (max-width: 768px) {
+  .vaccination-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.drop-down-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .drop-down-container {
+    align-self: flex-start;
+  }
+}
+.select {
+  height: 50px;
+  width: 200px;
+  background-color: #2f2f43;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-right: 15px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #919196;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.option {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.top-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .top-cards-container {
+    flex-direction: column;
+    align-items: initial;
+  }
+}
+.card-container {
+  display: flex;
+  padding: 20px;
+  width: 45%;
+  background-color: #2f2f43;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 90%;
+    margin-top: 15px;
+  }
+}
+
+.card-img {
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+}
+.total-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #cbd5e1;
+}
+@media screen and (max-width: 768px) {
+  .total-heading {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.total-site-num {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .total-site-num {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.site-data-container {
+  margin-left: 10px;
+}
+.site-data {
+  display: flex;
+  align-items: center;
+}
+.site-data-head {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #cbd5e1;
+}
+@media screen and (max-width: 768px) {
+  .site-data-head {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.site-data-num {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e2e8f0;
+}
+@media screen and (max-width: 768px) {
+  .site-data-num {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+.site-data-details {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hyphen {
+  padding-left: 12px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #cbd5e1;
+}
+.line-chart-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.vaccination-trends-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #94a3b8;
+  padding-bottom: 12px;
+}
+.line-chart-container {
+  margin-top: 15px;
+  align-self: center;
+}
+.pie-containers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 768) {
+  .pie-containers {
+    flex-direction: column;
+  }
+}
+.half-pie-container {
+  padding-top: 35px;
+}
+
+.mobile-line-chart {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .mobile-line-chart {
+    display: none;
+  }
+}
+.large-line-chart {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .large-line-chart {
+    display: flex;
+  }
+}
+.mobile-full-pie {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .mobile-full-pie {
+    display: none;
+  }
+}
+.large-full-pie {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .large-full-pie {
+    display: flex;
+  }
+}
+.mobile-half-pie {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .mobile-half-pie {
+    display: none;
+  }
+}
+.large-half-pie {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .large-half-pie {
+    display: flex;
+  }
+}
